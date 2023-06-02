@@ -1,9 +1,26 @@
 body {
   max-width: 375px;
   margin: auto;
+  background: #ffff3c;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.section-intro,
+footer {
+  background: black;
+  color: #ffff3c;
+}
+
+.section-info {
+  background: white;
+}
+
+.cta {
+  text-align: center;
+  color: black;
+  background: #ff00ff;
 }
