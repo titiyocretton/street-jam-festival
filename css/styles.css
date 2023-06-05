@@ -3,6 +3,7 @@ body {
   margin: auto;
   background: #ffff3c;
   font-family: 'Source Sans 3', sans-serif;
+  font-size: 18px;
 }
 
 img {
@@ -41,4 +42,20 @@ nav .cta {
 footer .cta, 
 main .cta {
   margin: 0 25px;
+}
+
+h1, .section-intro h2 {
+  font-family: 'Cherry Bomb One', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
 }
