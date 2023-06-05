@@ -39,10 +39,6 @@ nav .cta {
   margin-top: 5px;
 }
 
-footer .cta, 
-main .cta {
-  margin: 0 25px;
-}
 
 h1, .section-intro h2 {
   font-family: 'Cherry Bomb One', cursive;
@@ -58,4 +54,21 @@ h1, h2 {
 
 h2 {
   font-size: 36px;
+}
+
+div {
+  padding: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  color: #ff00ff;
+}
+
+main div {
+  margin-top: 5px;
 }
