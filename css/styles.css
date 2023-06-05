@@ -2,6 +2,7 @@ body {
   max-width: 375px;
   margin: auto;
   background: #ffff3c;
+  font-family: 'Source Sans 3', sans-serif;
 }
 
 img {
@@ -23,4 +24,21 @@ footer {
   text-align: center;
   color: black;
   background: #ff00ff;
+  font-size: 21px;
+  padding: 10px 0 10px 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .cta {
+  margin-top: 5px;
+}
+
+footer .cta, 
+main .cta {
+  margin: 0 25px;
 }
