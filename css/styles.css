@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 375px;
   margin: auto;
@@ -17,7 +21,8 @@ footer {
   color: #ffff3c;
 }
 
-.section-info {
+.section-info,
+.section-nourriture {
   background: white;
 }
 
@@ -73,7 +78,7 @@ ul {
   color: #ff00ff;
 }
 
-main div {
+.section-info {
   margin-bottom: 5px;
 }
 
