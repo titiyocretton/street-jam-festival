@@ -85,3 +85,7 @@ ul {
 p {
   margin: 0;
 }
+
+.section-nourriture li {
+  margin-bottom: 10px;
+}
