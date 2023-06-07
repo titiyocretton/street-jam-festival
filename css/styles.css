@@ -26,6 +26,19 @@ footer {
   background: white;
 }
 
+.section-info {
+  margin-bottom: 5px;
+}
+
+.section-nourriture li {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .cta {
   text-align: center;
   color: black;
@@ -39,34 +52,32 @@ main .cta {
   margin-top: 30px;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 nav .cta {
   margin-top: 5px;
-}
-
-
-h1, .section-intro h2 {
-  font-family: 'Cherry Bomb One', cursive;
 }
 
 h1 {
   text-align: center;
 }
 
+h1, .section-intro h2 {
+  font-family: 'Cherry Bomb One', cursive;
+}
+
 h1, h2, h3 {
   font-weight: 400;
+}
+
+main h2 {
+  margin-top: 0;
 }
 
 div {
   padding: 30px 25px 30px;
 }
 
-main h2 {
-  margin-top: 0;
+p {
+  margin: 0;
 }
 
 ul {
@@ -76,16 +87,4 @@ ul {
 
 .link {
   color: #ff00ff;
-}
-
-.section-info {
-  margin-bottom: 5px;
-}
-
-p {
-  margin: 0;
-}
-
-.section-nourriture li {
-  margin-bottom: 10px;
 }
