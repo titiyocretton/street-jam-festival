@@ -15,6 +15,16 @@ img {
   max-width: 100%;
 }
 
+.container-footer img {
+  max-width: 40px;
+  margin-right: 20px;
+}
+
+.container-footer {
+  display: flex;
+  padding: 0;
+}
+
 .section-intro,
 footer {
   background: black;
